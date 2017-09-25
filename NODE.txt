@@ -1,0 +1,71 @@
+1)NODE IS AN INTERPRETER FOR JAVASCRIPT THAT RUNS ON REGULAR OPERATING SYSTEMS (WINDOW/MAC/LINUX)
+
+2) NODE HAS NO BOTTLENECK. NO LIMIT ON THE NUMBER OF REQUESTS.
+GLOBAL PROCESSES = FIRE OBJECTS IN NODE PROCESS THE PROGRAM THAT WE ARE RUNNING.
+
+3) ARGUMENT = ARGUMENT TO A FUNCTION ESSENTIALLY INPUT PARAMETERS TO DO SOMETHING 
+
+4) ARGUMENT VECTOR = ALL ARGUMENTS PASSED TO YOUR PROGRAM
+
+5) PARSEFLOAT TOP LEVEL FUNCTION AND IS NOT ASSOCIATED WITH ANY OBJECT. PARSES ITS ARGUMENT AND RETURNS A FLOATING POINT NUMBER. CONVERTS STRINGS INTO NUMBERS
+
+6) PROCESS.ARGV = The PROCESS object is a global object, which means that you can access it from anywhere in your program. 
+
+The ARGV property is an array that contains all arguments provided when you executed your program on the command line.
+
+Example:
+(Var nodeArgs = process.argv; console.log(nodeArgs))
+(Process.argv = [‘node’[0], ‘yourjsfile.js[1]’ [2]… command-line invocation always starts at 2] elements 0 and 1 are not arguments)
+
+7) MODULE IS AN OBJECT (EVERY JS FILE HAS IT)
+
+8) run node plus file name
+
+9) Web Client Definition = 1)User clicks a link in the browser 2) Browser formats the request and sends it to the server 3) Server finds the requested page
+
+Server = 1)Server formats the response and sends it to the client (browser), 2)Browser gets the HTML and renders it into a display for the user, 3) User 
+
+
+1)Request(client), 2)Resource(HTML,JPEG,PDF Document), 3) Server sends a response and/or performs actions/methods
+
+
+
+EXPORTS AND IMPORTS
+
+1) module.exports = { key: and variable} example var music = etc {music: music}
+
+2) require(“./nameoffile.js”) (require adds code from file to the next) 
+
+
+
+
+NOTES: 
+
+ARGUMENTS ARE SEPARATED BY COMMAS
+
+WHEN ON TERMINAL CHECK WITH PWD TO SEE WHAT FILE YOU ARE IN IN ORDER TO BE ABLE TO RUN A COMMAND LINE NODE APPLICATION.
+
+WORKING WITH NODE AND THE COMMAND LINE
+
+URL = Uniform Resource Locator
+URI = Uniform Resource Identifier
+
+HTTP = Hyper Text Transfer Protocol
+(Protocol common standarized language /ways of doing things)
+
+Status Code = 2 = Great, 3 = informative (301,302), #4 = error that is recoverable, 5 = major error at the server. 
+
+
+
+REQUEST = RESPONSE PROTOCOL
+
+PROTOCOL = COMMON STANDARDIZED LANGUAGE/WAYS OF DOING THINGS
+
+SERVER = PROVIDES ASSISTANCE/SERVICE (always available, at a well known location, provides specific service)
+COMPUTING WORLD SERVER = SERVICE PROVIDES (send my webpages, always available, Facebook, well known location - URL, PORT: 80 (program = web-server), port 443 for https -23 for telnet/ssh-22)
+
+SERVER = Hardware or Software (hardware became more general purpose, so how do we do specific purpose = specific SOFTWARE/program
+
+SOFTWARE SERVER = PROGRAM THAT SENDS US WEB PAGES 
+
+
