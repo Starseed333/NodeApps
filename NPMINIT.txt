@@ -1,0 +1,10 @@
+New npm commands today:
+- npm init: creates package.json
+- npm install <package name> --save : saves the pkg as dependency in package.json
+- "npm install": if package.json exists => it install all dependent pakages
+- what will I add to my repo: (all except node_modules)
+-- git init => start a git repository
+-- in .gitignore => add node_nodules
+-- then do git add . and rest of the git stuff like commit
+-- git remote add <github repo address>
+-- git push

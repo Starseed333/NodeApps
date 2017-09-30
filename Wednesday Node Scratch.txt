@@ -1,0 +1,45 @@
+```What did we learn?
+
+Node, 
+Request package, 
+fs package,
+require,
+process.argv,
+readFile, writeFile, appendFile
+split
+switch - case - break
+REPL = interactive node
+NPM = node package manager
+package/module = some code
+Why use packages/modules? = Coding lighter, using other people's code to speed up our work
+
+TODAY: 
+
+Why use package managers?
+
+npm commands
+
+- npm install <package name>
+
+New npm commands today:
+- npm init: creates package.json
+- npm install <package name> --save : saves the pkg as dependency in package.json
+- "npm install": if package.json exists => it install all dependent pakages
+- what will I add to my repo: (all except node_modules)
+-- git init => start a git repository
+-- in .gitignore => add node_nodules
+-- then do git add . and rest of the git stuff like commit
+-- git remote add <github repo address>
+-- git push
+
+package.json file 
+
+
+
+var inquirer = require('inquirer');
+
+inquirer.prompt ( [{name: ,message: , type: 'input' }] )
+.then( function(obj){ 
+    all you do with obj;
+    console.log(obj);
+} );```

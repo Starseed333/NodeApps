@@ -22,3 +22,4 @@ else{
 
 //Notes: Node will run this file example: node sriracha.js 12 15
 // 12 and 15 are the two parameters
+// the numbers two and three are the numbers for the strings in the array when you execute the line
